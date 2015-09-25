@@ -7,8 +7,16 @@
 body{
     background-color:black;
     color:#00FF00;
+}
+
+pkmn{
     font-family: "pkmn_r";
 }
+
 sub-title{
     font-size:24px
+}
+
+h1{
+    font-size:32px
 }
