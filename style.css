@@ -1,6 +1,13 @@
+@font-face{
+    font-family: "pkmn_r";
+    src: url('pkmn_r.woff') format('woff'),
+    url('pkmn_r.ttf') format('truetype');
+}
+
 body{
     background-color:black;
     color:#00FF00;
+    font-family: "pkmn_r";
 }
 sub-title{
     font-size:24px
