@@ -44,6 +44,6 @@ void start_key(){
 void result_key(){
   if(keyPressed==true){
     if(key=='t')
-      link("https://twitter.com/intent/tweet?", "_new");
+      link("https://twitter.com/intent/tweet?&url=http://hirohirogeek.github.io/tennis_game/processing.html");
   }  
 }
