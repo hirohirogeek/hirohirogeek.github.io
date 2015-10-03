@@ -35,15 +35,10 @@ void start_key(){
       
       println("key pressed");
       tennis_game_scene=1;
-      TIME = 10;
+      TIME = 60;
       
     }
   }
 }
 
-void result_key(){
-  if(keyPressed==true){
-    if(key=='t')
-      link("https://twitter.com/intent/tweet?&url=http://hirohirogeek.github.io/tennis_game/processing.html");
-  }  
-}
+

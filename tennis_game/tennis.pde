@@ -70,6 +70,8 @@ void result(){
   rect(50,50,300,300);
   fill(0);
   text("RESULT",70,80);
+  text("SCORE:"+str(score),70,100);
+  
   tweet = new Button("TWEET","LINK",70,200,60,30);
-  result_key();  
+
 }
