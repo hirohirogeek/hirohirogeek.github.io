@@ -71,5 +71,5 @@ void result(){
   fill(0);
   text("RESULT",70,80);
   tweet = new Button("TWEET","LINK",70,200,60,30);
-  
+  result_key();  
 }

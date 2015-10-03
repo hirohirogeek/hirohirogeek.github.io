@@ -102,7 +102,7 @@ class Button{
     if(mouseX>b_x && mouseX<b_x+b_w && mouseY>b_y && mouseY<b_y+b_h && mousePressed==true){
       println("button was pressed");
       if(b_usage=="LINK"){
-        link("https://twitter.com/intent/tweet?");
+        link("https://twitter.com/intent/tweet?", "_new");
       }
     }
   }

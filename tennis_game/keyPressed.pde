@@ -35,8 +35,15 @@ void start_key(){
       
       println("key pressed");
       tennis_game_scene=1;
-      TIME = 30;
+      TIME = 10;
       
     }
   }
+}
+
+void result_key(){
+  if(keyPressed==true){
+    if(key=='t')
+      link("https://twitter.com/intent/tweet?", "_new");
+  }  
 }
