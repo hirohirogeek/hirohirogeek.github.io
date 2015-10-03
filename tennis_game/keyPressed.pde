@@ -35,6 +35,7 @@ void start_key(){
       
       println("key pressed");
       tennis_game_scene=1;
+      score = 0;
       TIME = 60;
       
     }

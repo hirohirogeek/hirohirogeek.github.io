@@ -1,6 +1,7 @@
 Ball b1;
 Player tp;
 Button tweet;
+Button retry;
 int pre_fc;
 
 int score = 0;
@@ -73,5 +74,6 @@ void result(){
   text("SCORE:"+str(score),70,100);
   
   tweet = new Button("TWEET","LINK",70,200,60,30);
+  retry = new Button("RETRY","RETRY",70,240,60,30);
 
 }

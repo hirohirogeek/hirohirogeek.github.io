@@ -103,6 +103,8 @@ class Button{
       println("button was pressed");
       if(b_usage=="LINK"){
         link("https://twitter.com/intent/tweet?&url=http://hirohirogeek.github.io/tennis_game/processing.html&text=%E5%A3%81%E6%89%93%E3%81%A1%E3%82%B2%E3%83%BC%E3%83%A0%EF%BC%81%EF%BC%81%E3%82%B9%E3%82%B3%E3%82%A2"+str(score)+"%E7%82%B9");
+      }else if(b_usage=="RETRY"){
+        tennis_game_scene = 0;
       }
     }
   }
