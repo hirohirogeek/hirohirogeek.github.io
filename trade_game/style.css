@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "font01";
+    src:url('font01.woff') format('woff'),
+    url('font01.ttf') format('truetype');
+}
+
+body{
+    background-color:black;
+    color:#00FF00;
+}
+
+canvas{
+    font-family:font01;	
+}
+
+h1{
+    background-color:white; 
+    font-size:64px;
+    color:black;
+		  
+}
